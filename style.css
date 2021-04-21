@@ -1,0 +1,174 @@
+
+*{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+}
+/* header */
+
+#header {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img{
+  width: 300px;
+  height: 34px;
+
+}
+
+/* menu */
+
+#nav-bar {
+  float: right;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#nav-bar ul li {
+  float: left;
+  margin: 0px 50px 0px 50px;
+}
+
+
+
+/* email */
+
+#hero {
+  text-align: center;
+  padding: 10px;
+}
+
+#email {
+  margin: 10px 0px 10px 0px;
+  width: 300px;
+  height: 20px;
+}
+
+#submit {
+  width: 150px;
+  height: 30px;
+  background: #f1c40f;
+  border: white;
+  font-size:15px;
+  font-family: serif;
+}
+
+/* contenuto */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* info */
+.grid {
+  margin: 40px 0px 40px 0px;
+  height: 100px;
+}
+
+.desc {
+  float: right;
+  width: 90%;
+}
+
+.icon, .desc {
+  display: inline-block;
+  padding: auto;
+  vertical-align: middle;
+}
+
+.icon svg{
+  float: right;
+  display: inline-block;
+  border-radius: 50%;
+  background: orange;
+  width: 50px;
+  height: 50px;
+}
+
+/* video */
+
+#how-it-works {
+  width: 100%;
+}
+
+#video {
+  margin: 20px 0px 20px 0px;
+  position: relative;
+  width: 50%;
+  left: calc((100% - 50%) * 0.5);
+}
+
+
+/* prezzi */
+
+#pricing {
+  margin: 0 auto;
+}
+
+.product {
+  margin: 20px 5px 20px 5px;
+  border: 1px solid black;
+  width: 313px;
+  height: 311px;
+  display: inline-block;
+  text-align: center;
+}
+
+.level {
+  background: #bdbdbd;
+  padding: 20px;
+}
+
+.product h2, .product ol  {
+  margin: 20px 0px 20px 0px;
+}
+
+.product li {
+  padding: 5px 0;
+  position: relative;
+  left: -20px;
+}
+
+.btn {
+  background: #f1c40f;
+  border: #f1c40f;
+  padding: 5px 10px 5px 10px;
+}
+
+/* contatti */
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+
+/* media */
